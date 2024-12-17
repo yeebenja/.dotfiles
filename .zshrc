@@ -117,3 +117,5 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/opt/homebrew/bin
 # NOTE:: Run fastfetch on startup
 fastfetch
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
